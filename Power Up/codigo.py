@@ -64,7 +64,6 @@ for linha in tabela.index:
     if not pandas.isna(obs):
         pyautogui.write(str(obs))
     pyautogui.press("tab")
-    
 
     # Clicar no botão enviar
     pyautogui.press("enter")
