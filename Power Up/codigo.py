@@ -4,7 +4,7 @@ import time
 import pandas
 
 #pyautogui.hotkey -> atalho de teclado 
-pyautogui.PAUSE = 0.5
+pyautogui.PAUSE = 0.7
 # abrir o navegador 
 pyautogui.press("win")
 pyautogui.write("Edge")
@@ -15,7 +15,7 @@ pyautogui.press("enter")
 # Passo 2: Login no sistema 
 pyautogui.click(x=472, y=356)
 pyautogui.write("medeiroshercules23@gmail.com")
-pyautogui.click(x=454, y=460)
+pyautogui.click(x=391, y=459)
 pyautogui.write("senha123")
 pyautogui.click(x=702, y=519)
 

@@ -3,7 +3,7 @@
 import pyautogui
 import pandas
 
-pyautogui.PAUSE = 0.5
+pyautogui.PAUSE = 5
 link_sistema = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
 
 # abrir o Edge e entrar no sistema
